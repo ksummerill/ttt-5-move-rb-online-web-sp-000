@@ -11,9 +11,9 @@ end
 # subtracts 1 from the user_input
 # returns -1 for strings without integers
 
-  def input_to_index(input)
+  def input_to_index(cat)
     # convert input to integer and subtracts 1
-    input.to_i - 1
+    cat.to_i - 1
   end
 
 # # code the move method here!
